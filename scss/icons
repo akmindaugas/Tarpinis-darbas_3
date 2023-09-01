@@ -1,0 +1,15 @@
+.icons { 
+display: flex;
+flex-direction: row;  
+max-width: 1000px;
+height: fit-content;
+justify-content: space-evenly;
+padding: 100px;
+text-align: center;
+background: rgb(249, 247, 247);
+ 
+  img{
+    height: 50px;
+    width: 50px;
+   } 
+  }

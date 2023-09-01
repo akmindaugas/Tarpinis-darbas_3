@@ -1,0 +1,103 @@
+/* kodel aplamai nepriima atskiru elementu - h1, input? auk6tesn4s klas4s prid4jimas nepadeda */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  max-width: 1000px;
+  height: 400px;
+  justify-content: center;
+  border: none;
+  background: url(../images/bg-masthead.jpg); 
+  background-size: cover;
+
+  h1 {
+    color: #ffff;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+  }
+
+  .registration{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    
+     input{
+        width: 300px;
+        margin-right: 5px;
+        padding-left: 10px;
+        border: none;
+        border-radius: 3px;
+             }  
+button{
+  width: 100px;
+  background:#007aff;
+  color: #ffff;
+  border: none;
+  border-radius: 3px;
+}
+}
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 400px;
+    justify-content: center;
+    border: none;
+    background: url(../images/bg-masthead.jpg); 
+    background-size: cover;
+  
+    h1{
+    color: #ffff;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    }
+  
+    .registration1{
+      display: flex;
+      justify-content: center;
+      height: 40px;
+      
+  .input1{
+    width: 300px;
+    margin-right: 5px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+    /* // nepriima email langelio formatavimo, kodel? */
+  }  
+  button{
+    width: 100px;
+    background:#007aff;
+    color: #ffff;
+    border: none;
+    border-radius: 3px;
+  }
+    }
+  }
+
+  .footer2{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 0.8em;
+    
+    nav{
+  color: #007aff;
+   word-spacing: 10px;
+    }
+
+    .icons2{
+      margin-top: 25px;
+      padding-right: 50px;    
+    }
+  }

@@ -1,0 +1,33 @@
+
+   .testimonials{
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+  max-width: 1000px;
+  height: auto;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+  text-align: center;
+  background: rgb(249, 247, 247);
+
+     h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left:300px;
+    padding-right: 300px;
+    text-align: center;
+  }
+  
+    img {
+        height: 100px; 
+        width: 100px;
+        border-radius: 100px;
+        margin: auto;
+   }
+    
+    text{
+       margin: auto;
+       padding: 50px;
+       text-align: center;
+    }
+  }
